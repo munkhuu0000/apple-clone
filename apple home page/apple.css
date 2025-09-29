@@ -363,10 +363,13 @@ img {
   display: flex;
   margin-top: 12px;
   gap: 16px;
+  animation: sliderr 20s infinite linear;
+}
+.slider:hover {
+  animation-play-state: paused;
 }
 .slide {
   width: 417px;
-  animation: sliderr 10s infinite linear;
   overflow: hidden;
   object-fit: cover;
   position: relative;
@@ -381,7 +384,7 @@ img {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 .bigimg {
@@ -425,9 +428,9 @@ img {
   transition-duration: 0.5s;
   transform: translateY(-10px);
 }
-.slide:hover .slide {
+/* .slide:hover .slide {
   animation: sliderr 0s none linear;
-}
+} */
 
 @media (max-width: 768px) {
   .header p {
