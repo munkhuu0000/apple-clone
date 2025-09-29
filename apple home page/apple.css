@@ -182,6 +182,9 @@ img {
   width: 100%;
   height: 100%;
 }
+.bgres {
+  display: none;
+}
 .container-2-1 {
   width: 322px;
   height: 146px;
@@ -375,7 +378,13 @@ img {
   position: relative;
   cursor: pointer;
 }
+.slider:has(.slide:hover) .slide {
+  filter: grayscale(80%);
+}
 
+.slide:hover {
+  filter: none !important;
+}
 .slidepadding {
   padding: 20px 15px;
 }
@@ -433,6 +442,9 @@ img {
 } */
 
 @media (max-width: 768px) {
+  .header {
+    justify-content: space-evenly;
+  }
   .header p {
     display: none;
   }
@@ -442,8 +454,48 @@ img {
   .front1 {
     padding-top: 58px;
   }
-  .background2 {
-    grid-template-columns: 1fr;
+  .bgori {
+    display: none;
+  }
+  .bgres {
+    display: block;
+  }
+  .p1 {
+    font-size: 42px;
+    color: rgba(245, 245, 247, 1);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.28px;
+    padding: bottom 16px;
+    font-family: inter, sans-serif;
+  }
+  .p2 {
+    font-size: 20px;
+    color: rgba(245, 245, 247, 1);
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: inter, sans-serif;
+  }
+  .bg3 {
+    width: 100vw;
+    height: 368px;
+    display: flex;
+    margin-top: 12px;
+    gap: 16px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .scroll {
+    width: 689px;
+    height: 100%;
+    position: relative;
+  }
+  .scroll img {
+    object-fit: cover;
+    height: 100%;
   }
 }
 
@@ -452,12 +504,53 @@ img {
     height: 500px;
   }
   .front1 {
-    padding-top: 350px;
+    padding-top: 300px;
   }
   .back {
     display: none;
   }
   .back1 {
     display: block;
+  }
+  .background2 {
+    grid-template-columns: 1fr;
+  }
+  .p1 {
+    font-size: 30px;
+    color: rgba(245, 245, 247, 1);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.28px;
+    padding: bottom 16px;
+    font-family: inter, sans-serif;
+  }
+  .p2 {
+    font-size: 18px;
+    color: rgba(245, 245, 247, 1);
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: inter, sans-serif;
+  }
+  .bg3 {
+    width: 100vw;
+    height: 495px;
+    display: flex;
+    margin-top: 12px;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .scroll {
+    width: 274px;
+    height: 100%;
+    position: relative;
+  }
+  .scroll img {
+    object-fit: cover;
+    height: 496px;
+    width: 274px;
   }
 }
