@@ -32,13 +32,139 @@
 }
 .bg1 {
   width: 100vw;
-  border: solid 3px red;
 }
-.gradient {
+.section1-1 {
   width: 100%;
-  height: 75px;
-  background-color: linear-gradient(
-    rgba(1, 159, 251, 1),
-    rgba(253, 140, 31, 1)
+}
+.section1-1 img {
+  width: 100%;
+}
+.section1-2 {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 140px;
+  padding-right: 140px;
+  justify-content: space-between;
+}
+.tcontainer1 {
+  width: 655px;
+  height: 52px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.tcontainer1 p {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: inter;
+  font-style: bold;
+}
+.p1-2-1 {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 50%,
+    #f2416b 100%
   );
+
+  padding-right: 32px;
+}
+.p1-2-2 {
+  color: rgba(110, 110, 115, 1);
+}
+
+.tcontainer2 {
+  width: 226px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.tcontainer2 img {
+  width: 35px;
+  height: 35px;
+}
+.tcontainer2-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.tcontainer2-1-1 {
+  gap: 4px;
+}
+.p1-2-2-1 {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: bold;
+  color: rgba(29, 29, 31, 1);
+}
+.p1-2-2-2 {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: bold;
+  color: rgba(0, 102, 204, 1);
+}
+.bg2 {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding-left: 140px;
+  padding-right: 140px;
+  border-radius: 18px;
+}
+.productcont {
+  width: 136px;
+  height: 146px;
+  padding: 16px 8px 16px 8px;
+}
+.productcont img {
+  object-fit: cover;
+  width: 120px;
+  height: 78px;
+}
+.productcont p {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: bold;
+  font-family: inter;
+  justify-self: center;
+  padding-top: 16px;
+}
+.bg3 {
+  width: 100vw;
+  height: 558px;
+  border: solid 3px green;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.bg3-1 {
+  width: 467px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.bg3-1 p {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: inter;
+  font-style: bold;
+}
+.p3-1-1 {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 50%,
+    #f2416b 100%
+  );
+}
+.p3-1-2 {
+  color: rgba(110, 110, 115, 1);
 }
