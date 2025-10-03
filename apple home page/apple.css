@@ -33,6 +33,9 @@
   gap: 4px;
   padding-top: 44px;
 }
+.header2 p {
+  justify-self: center;
+}
 .background {
   width: 100vw;
   display: flex;
@@ -484,13 +487,15 @@ img {
   .header p {
     display: none;
   }
+  .atag {
+    display: none;
+  }
   .bg-1 {
     height: 650px;
   }
   .front1 {
     padding-top: 58px;
   }
-
   .p1 {
     font-size: 42px;
     color: rgba(245, 245, 247, 1);
