@@ -12,14 +12,26 @@
   align-items: center;
   font-family: inter;
   background-color: #f5f5f7cc;
+  position: fixed;
+}
+.header p {
+  cursor: pointer;
+}
+.atag {
+  text-decoration: none;
+  color: black;
+}
+.vector {
+  cursor: pointer;
 }
 .header2 {
   width: 100vw;
-  height: 52px;
+  height: 96px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4px;
+  padding-top: 44px;
 }
 .background {
   width: 100vw;
@@ -76,6 +88,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 16px;
+  cursor: pointer;
 }
 .button-blue {
   width: 123px;
@@ -86,6 +99,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .button-white {
   width: 68px;
@@ -96,6 +110,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .button-blue p {
   font-size: 16px;
@@ -110,6 +125,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .button-tr {
   width: 68px;
@@ -121,6 +137,7 @@ img {
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255, 1);
+  cursor: pointer;
 }
 .bg-1-3 {
   width: 100vw;
@@ -279,6 +296,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .button-blue-5 p {
   font-size: 16px;
@@ -311,6 +329,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .bg3 {
   width: 100vw;
@@ -343,6 +362,7 @@ img {
   position: absolute;
   top: 80%;
   left: 5%;
+  cursor: pointer;
 }
 .cont-box {
   position: absolute;
@@ -376,7 +396,6 @@ img {
   overflow: hidden;
   object-fit: cover;
   position: relative;
-  cursor: pointer;
 }
 .slider:has(.slide:hover) .slide {
   filter: grayscale(80%);
@@ -429,6 +448,7 @@ img {
   left: 50%;
   opacity: 0;
   border: none;
+  cursor: pointer;
 }
 
 .slide:hover .button-white-7 {
@@ -436,6 +456,22 @@ img {
   transition: all;
   transition-duration: 0.5s;
   transform: translateY(-10px);
+  cursor: pointer;
+}
+.slidep {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  font-weight: 700;
+}
+.text-white {
+  color: white !important;
+}
+.slidepbot {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  font-weight: 700;
 }
 /* .slide:hover .slide {
   animation: sliderr 0s none linear;
@@ -454,12 +490,7 @@ img {
   .front1 {
     padding-top: 58px;
   }
-  .bgori {
-    display: none;
-  }
-  .bgres {
-    display: block;
-  }
+
   .p1 {
     font-size: 42px;
     color: rgba(245, 245, 247, 1);
