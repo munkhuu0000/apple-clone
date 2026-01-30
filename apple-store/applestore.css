@@ -517,6 +517,7 @@
   width: 100vw;
   height: 96px;
   padding-left: 140px;
+  padding-bottom: 25px;
   /* padding-right: 140px; */
   display: flex;
   flex-direction: column;
